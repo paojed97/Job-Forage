@@ -11,7 +11,9 @@
         mollitia, repellendus recusandae asperiores doloribus enim quam esse
         cumque rerum.
       </p>
-      <button class="bg-slate-200 border-2 mt-4 px-4 py-2 w-32">
+      <button
+        class="bg-slate-200 border-2 mt-4 px-4 py-2 w-32 text-sm uppercase"
+      >
         Apply Now
       </button>
     </div>
