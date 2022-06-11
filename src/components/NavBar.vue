@@ -11,11 +11,11 @@ const props = defineProps(["mainNav", "userNav"]);
       <div class="hidden md:block md:w-auto" id="mobile-menu">
         <ul class="flex flex-col md:flex-row md:font-semibold">
           <li
-            v-for="item in props.mainNav"
-            :key="item.title"
+            v-for="link in props.mainNav"
+            :key="link.path"
             class="block py-2 px-3 text-xs"
           >
-            <RouterLink :to="item.path">{{ item.title }}</RouterLink>
+            <RouterLink :to="link.path">{{ link.title }}</RouterLink>
           </li>
         </ul>
       </div>

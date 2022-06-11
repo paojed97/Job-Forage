@@ -44,9 +44,7 @@ import SearchFilter from "../components/SearchFilter.vue";
         </p>
       </div>
       <div class="mt-5 sm:mt-10 lg:mt-0 self-center justify-self-end">
-        <RouteButton
-          :button-route="{ title: 'Subscribe', path: '/register' }"
-        />
+        <RouteButton :button-route="{ title: 'Register', path: '/register' }" />
       </div>
     </div>
   </section>
