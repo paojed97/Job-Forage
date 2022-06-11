@@ -23,7 +23,7 @@ import SearchFilter from "../components/SearchFilter.vue";
         />
       </div>
     </div>
-    <SearchFilter />
+    <SearchFilter class="hidden md:block mt-10 sm:mt-20" />
   </main>
 
   <section

@@ -5,7 +5,7 @@ import NavFooter from "./components/NavFooter.vue";
 
 const mainNavigation = ref([
   { title: "Home", path: "/" },
-  { title: "Search Jobs", path: "/search" },
+  { title: "Search Jobs", path: "/jobs" },
   { title: "Job Alerts", path: "/alerts" },
   { title: "Employers", path: "/employers" },
   { title: "Career Advice", path: "/careers" },
@@ -18,14 +18,14 @@ const userNavigation = ref([
 ]);
 
 const jobSeekerNav = ref([
-  { title: "Search Jobs", path: "/search" },
+  { title: "Search Jobs", path: "/jobs" },
   { title: "Register", path: "/register" },
   { title: "Job Alerts", path: "/alerts" },
   { title: "Career Advice", path: "/careers" },
 ]);
 
 const popularNav = ref([
-  { title: "Search Jobs", path: "/search" },
+  { title: "Search Jobs", path: "/jobs" },
   { title: "Employers", path: "/employers" },
   { title: "Agencies", path: "/agencies" },
 ]);
