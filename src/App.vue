@@ -25,4 +25,8 @@ const userNavigation = ref([
 
 <style>
 @import "@/assets/base.css";
+
+body {
+  font-family: "Inter", sans-serif;
+}
 </style>

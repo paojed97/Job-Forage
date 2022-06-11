@@ -3,7 +3,7 @@ const props = defineProps(["mainNav", "userNav"]);
 </script>
 
 <template>
-  <nav class="py-4 px-4 lg:px-32 bg-slate-100">
+  <nav class="bg-slate-100 py-4 px-4 lg:px-32 xl:px-48">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <RouterLink to="/" class="flex items-center">
         <img src="@/assets/logo.svg" alt="Logo" class="h-8 md:h-12" />
