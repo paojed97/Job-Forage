@@ -4,6 +4,7 @@ import JobsViewVue from "../views/JobsView.vue";
 import DetailsViewVue from "../views/DetailsView.vue";
 import AlertsViewVue from "../views/AlertsView.vue";
 import EmployersViewVue from "../views/EmployersView.vue";
+import CareersViewVue from "../views/CareersView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,8 +32,13 @@ const router = createRouter({
     {
       path: "/employers",
       name: "employers",
-      component: EmployersViewVue
-    }
+      component: EmployersViewVue,
+    },
+    {
+      path: "/careers",
+      name: "careers",
+      component: CareersViewVue,
+    },
   ],
 });
 
