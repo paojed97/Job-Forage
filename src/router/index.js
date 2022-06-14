@@ -3,6 +3,7 @@ import HomeViewVue from "../views/HomeView.vue";
 import JobsViewVue from "../views/JobsView.vue";
 import DetailsViewVue from "../views/DetailsView.vue";
 import AlertsViewVue from "../views/AlertsView.vue";
+import EmployersViewVue from "../views/EmployersView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: "/alerts",
       name: "alerts",
       component: AlertsViewVue,
+    },
+    {
+      path: "/employers",
+      name: "employers",
+      component: EmployersViewVue
     }
   ],
 });
