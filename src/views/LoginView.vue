@@ -63,12 +63,7 @@ import SearchFilter from "../components/SearchFilter.vue";
           </div>
         </el-tab-pane>
         <el-tab-pane label="Recruiter Login">
-          <div
-            class="grid md:grid-cols-2 gap-4"
-            id="recruiter"
-            role="tabpanel"
-            aria-labelledby="recruiter-tab"
-          >
+          <div class="grid md:grid-cols-2 gap-4">
             <div class="p-5 text-center md:text-left">
               <input
                 type="text"

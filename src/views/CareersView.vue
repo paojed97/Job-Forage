@@ -14,7 +14,7 @@ import SearchFilter from "../components/SearchFilter.vue";
   >
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <h2
-        class="text-xl tracking-tight font-bold sm:text-2xl md:text-3xl lg:my-10"
+        class="text-xl tracking-tight font-bold sm:text-2xl md:text-3xl lg:mb-10"
       >
         Career Advice
       </h2>
@@ -52,11 +52,11 @@ import SearchFilter from "../components/SearchFilter.vue";
         />
       </div>
 
-      <h4 class="text-md tracking-tight font-bold sm:text-lg md:text-xl">
+      <h4 class="mb-3 text-md tracking-tight font-bold sm:text-lg md:text-xl">
         CV Tips
       </h4>
 
-      <div class="my-10 w-full grid md:grid-cols-4 gap-4">
+      <div class="mb-10 w-full grid md:grid-cols-4 gap-4">
         <img
           src="@/assets/image-4.jpg"
           alt="Placeholder"
@@ -79,11 +79,11 @@ import SearchFilter from "../components/SearchFilter.vue";
         />
       </div>
 
-      <h4 class="text-md tracking-tight font-bold sm:text-lg md:text-xl">
+      <h4 class="mb-3 text-md tracking-tight font-bold sm:text-lg md:text-xl">
         Cover Letter Tips
       </h4>
 
-      <div class="my-10 w-full grid md:grid-cols-4 gap-4">
+      <div class="mb-10 w-full grid md:grid-cols-4 gap-4">
         <img
           src="@/assets/image-4.jpg"
           alt="Placeholder"
@@ -106,11 +106,11 @@ import SearchFilter from "../components/SearchFilter.vue";
         />
       </div>
 
-      <h4 class="text-md tracking-tight font-bold sm:text-lg md:text-xl">
+      <h4 class="mb-3 text-md tracking-tight font-bold sm:text-lg md:text-xl">
         Interview Tips
       </h4>
 
-      <div class="my-10 w-full grid md:grid-cols-4 gap-4">
+      <div class="mb-10 w-full grid md:grid-cols-4 gap-4">
         <img
           src="@/assets/image-4.jpg"
           alt="Placeholder"

@@ -4,7 +4,7 @@
   >
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <h2
-        class="text-xl tracking-tight font-bold sm:text-2xl md:text-3xl lg:my-10"
+        class="text-xl tracking-tight font-bold sm:text-2xl md:text-3xl lg:mb-10"
       >
         Get Job Alerts
       </h2>
