@@ -27,18 +27,18 @@ const jobSeekerNav = ref([
 const popularNav = ref([
   { title: "Search Jobs", path: "/jobs" },
   { title: "Employers", path: "/employers" },
-  { title: "Agencies", path: "/agencies" },
+  { title: "Agencies", path: "/employers" },
 ]);
 
 const recruiterNav = ref([
-  { title: "CV Database Access", path: "/cv-database" },
-  { title: "Advertise Jobs", path: "/adverts" },
-  { title: "Search CVs", path: "/cv-search" },
-  { title: "Test CV Search", path: "/cv-search-test" },
+  { title: "CV Database Access", path: "/recruit" },
+  { title: "Advertise Jobs", path: "/recruit" },
+  { title: "Search CVs", path: "/recruit" },
+  { title: "Test CV Search", path: "/recruit" },
 ]);
 
 const aboutNav = ref([
-  { title: "About Us", path: "/about" },
+  { title: "About Us", path: "/recruit" },
   { title: "Contact Us", path: "/contact" },
   { title: "Work for Us", path: "/join" },
   { title: "Help", path: "/help" },
